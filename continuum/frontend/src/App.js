@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import CoordinatorDashboard from './CoordinatorDashboard';
-import ClinicDashboard from './ClinicDashboard';
-import PatientDashboard from './PatientDashboard';
-import PhysicianDashboard from './PhysicianDashboard';
-import LoginPage from './LoginPage';
+import CoordinatorDashboard from './components/CoordinatorDashboard';
+import ClinicDashboard from './components/ClinicDashboard';
+import PatientDashboard from './components/PatientDashboard';
+import PhysicianDashboard from './components/PhysicianDashboard';
+import LoginPage from './components/LoginPage';
 import './App.css';
 
 function App() {
