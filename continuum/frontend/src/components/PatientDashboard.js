@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../../styles/DashboardStyles.css';
+import '../styles/DashboardStyles.css';
 import axios from 'axios';
 
 export function PatientDashboard() {
